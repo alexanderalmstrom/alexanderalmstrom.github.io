@@ -3,3 +3,13 @@
     
   }
 }
+
+.page--about {
+  header {
+    ul {
+      @media #{$large-up} {
+        font-size: 2em;
+      }
+    }
+  }
+}

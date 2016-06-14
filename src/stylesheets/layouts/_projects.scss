@@ -30,21 +30,40 @@
       display: block;
     }
 
+    a {
+      position: relative;
+      display: block;
+    }
+
     .inner {
       position: absolute;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      width: 100%;
+      bottom: em(15px);
+      left: em(15px);
+      right: em(15px);
       opacity: 0;
       @include transition(opacity 0.3s cubic-bezier(0.2, 0.4, 0.8, 1));
 
+      @media #{$medium-up} {
+        bottom: 0;
+        left: 0;
+        right: inherit;
+        width: 100%;
+      }
+
       h3 {
+        font-size: 2.5em;
         margin-bottom: 0;
         font-weight: normal;
-        font-size: 5em;
         line-height: 0.9;
-        @include transform(translateY(-15px));
+
+        @media #{$medium-up} {
+          font-size: 4em;
+          @include transform(translate(em(-5px), em(-5px)));
+        }
+
+        @media #{$large-up} {
+          font-size: 5em;
+        }
       }
     }
   }

@@ -17,34 +17,46 @@ h5, .h5,
 h6, .h6 {
   margin-top: 0;
   margin-bottom: em(15px);
-  line-height: 1.15;
+  line-height: 1.1;
   letter-spacing: -0.01em;
   font-weight: normal;
   color: $font-color;
 }
 
 h1, .h1 {
-  font-size: em(72px);
+  @media #{$large-up} {
+    font-size: em(72px);
+  }
 }
 
 h2, .h2 {
-  font-size: em(54px);
+  @media #{$large-up} {
+    font-size: em(54px);
+  }
 }
 
 h3, .h3 {
-  font-size: em(32px);
+  @media #{$large-up} {
+    font-size: em(32px);
+  }
 }
 
 h4, .h4 {
-  font-size: em(24px);
+  @media #{$large-up} {
+    font-size: em(24px);
+  }
 }
 
 h5, .h5 {
-  font-size: em(20px);
+  @media #{$large-up} {
+    font-size: em(20px);
+  }
 }
 
 h6, .h6 {
-  font-size: em(16px);
+  @media #{$large-up} {
+    font-size: em(16px);
+  }
 }
 
 

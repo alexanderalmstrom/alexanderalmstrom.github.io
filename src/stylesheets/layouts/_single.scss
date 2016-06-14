@@ -1,10 +1,24 @@
 .single {
   header {
     text-align: center;
-    margin-bottom: em(100px);
+    margin-bottom: em(50px);
+
+    @media #{$medium-up} {
+      margin-bottom: em(75px);
+    }
+
+    @media #{$large-up} {
+      margin-bottom: em(100px);
+    }
 
     h1 {
-      font-size: em(72px);
+      @media #{$medium-up} {
+        font-size: em(48px);
+      }
+
+      @media #{$large-up} {
+        font-size: em(72px);
+      }
     }
   }
 
