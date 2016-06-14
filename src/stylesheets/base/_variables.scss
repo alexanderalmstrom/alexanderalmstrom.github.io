@@ -1,0 +1,16 @@
+$background-color: #fff;
+$font-color: #000;
+
+$link-color: #000;
+
+$small-breakpoint: em(300px);
+$medium-breakpoint: em(641px);
+$large-breakpoint: em(1025px);
+$xlarge-breakpoint: em(1441px);
+$xxlarge-breakpoint: em(1921px);
+
+$small-up: "(min-width: #{$small-breakpoint})";
+$medium-up: "(min-width: #{$medium-breakpoint})";
+$large-up: "(min-width: #{$large-breakpoint})";
+$xlarge-up: "(min-width: #{$xlarge-breakpoint})";
+$xxlarge-up: "(min-width: #{$xxlarge-breakpoint})";

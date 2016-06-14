@@ -1,0 +1,34 @@
+{% extends 'layouts/application.html' %}
+
+{% block content %}
+
+  <section class="page--home projects">
+    <div class="container">
+      <div class="column project">
+        <a href="/project/kenza-zouiten">
+          {{ image('kenza_zouiten_1.jpg', 'kenza zouiten') }}
+          <div class="inner">
+            <h3>Kenza Zouiten</h3>
+          </div>
+        </a>
+      </div>
+      <div class="column project">
+        <a href="/project/ebba-zingmark">
+          {{ image('ebba_zingmark_1.jpg', 'ebba zingmark') }}
+          <div class="inner">
+            <h3>Ebba Zingmark</h3>
+          </div>
+        </a>
+      </div>
+      <div class="column project">
+        <a href="/project/ivyrevel">
+          {{ image('ivyrevel_1.jpg', 'ivyrevel') }}
+          <div class="inner">
+            <h3>IvyRevel</h3>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+{% endblock %}

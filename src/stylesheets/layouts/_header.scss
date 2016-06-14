@@ -1,0 +1,74 @@
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 5000;
+
+  .container {
+    max-width: 100%;
+    padding: em(50px);
+
+    @media #{$medium-up} {
+      padding: em(50px) em(75px);
+    }
+  }
+
+  .logo {
+    display: block;
+    width: em(40px);
+    height: em(40px);
+    float: left;
+
+    .sprite {
+      fill: $font-color;
+    }
+  }
+
+  nav {
+    height: em(50px);
+    line-height: em(50px);
+    float: right;
+
+    a {
+      display: inline-block;
+      margin-left: em(30px);
+    }
+  }
+}
+
+.bar {
+  display: none;
+  width: em(100px);
+  height: 100%;
+  position: fixed;
+  top: 0;
+
+  @media #{$medium-up} {
+    display: block;
+  }
+}
+
+.bar.left {
+  .inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    white-space: nowrap;
+  }
+
+  .rotate {
+    @include transform(translateX(-50%) translateY(-50%) rotate(-90deg));
+  }
+
+  h2 {
+    font-size: 1em;
+    font-weight: normal;
+  }
+}
+
+.bar.right {
+  .inner {
+
+  }
+}
