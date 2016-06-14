@@ -7,10 +7,10 @@
 .page--about {
   header {
     h1 {
-      font-size: em(32px);
+      font-size: em(28px);
 
       @media #{$medium-up} {
-        font-size: em(44px);
+        font-size: em(36px);
       }
 
       @media #{$large-up} {
