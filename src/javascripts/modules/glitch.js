@@ -7,7 +7,7 @@ function Glitch() {
   }
 
   function setGlitches() {
-    glitches = [].slice.call(document.querySelectorAll('.glitch-text'))
+    glitches = [].slice.call(document.querySelectorAll('.glitch-text, .glitch-svg'))
 
     console.log(glitches)
 

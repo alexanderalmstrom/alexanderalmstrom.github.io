@@ -15,14 +15,13 @@
   }
 
   .logo {
+    position: relative;
     display: block;
     width: em(40px);
     height: em(40px);
     float: left;
 
-    &:after {
-      display: none;
-    }
+    @include svgGlitch("glitch-logo", 20, $font-color, $background-color, $font-color, $font-color, 40, 40, 0, 0);
 
     .sprite {
       fill: $font-color;
