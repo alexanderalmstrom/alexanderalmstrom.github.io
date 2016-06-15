@@ -110,9 +110,9 @@
         @for $i from 0 through $steps {
           #{percentage($i*(1/$steps))} {
             clip: rect(
-              (random($height)-20)+px,
+              (random($height))+px,
               $width+px,
-              (random($height)+20)+px,
+              (random($height))+px,
               0
             );
           }
@@ -127,23 +127,24 @@
     left: $left+px;
     fill: $fillColor;
     background: $background;
-    width: $width+px;
-    height: $height+px;
+    width: 100%;
+    height: 100%;
   }
 
   .sprite:nth-child(2),
   .sprite:nth-child(3) {
-    clip: rect(0, 0, 0, 0); 
+    clip: rect(0, 900px, 0, 0);
+    overflow: hidden; 
   }
 
   .sprite:nth-child(2) {
     fill: $fillHighlight1;
-    left: ($left) + px;
+    left: -2px;
   }
 
   .sprite:nth-child(3) {
     fill: $fillHighlight2;
-    left: ($left + 2) + px;
+    left: 2px;
   }
 
   &.play {
