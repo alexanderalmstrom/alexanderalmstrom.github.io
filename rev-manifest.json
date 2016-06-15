@@ -14,11 +14,14 @@
   "fonts/icons.ttf": "fonts/icons-7b7e7e83d0.ttf",
   "fonts/icons.woff": "fonts/icons-3de3598769.woff",
   "fonts/icons.woff2": "fonts/icons-502f23e987.woff2",
-  "images/ebba_zingmark_1.jpg": "images/ebba_zingmark_1-1f5acd409c.jpg",
+  "images/ebba-zingmark-1.jpg": "images/ebba-zingmark-1-1f5acd409c.jpg",
   "images/icons.svg": "images/icons-ddd077774f.svg",
-  "images/ivyrevel_1.jpg": "images/ivyrevel_1-51f9535783.jpg",
-  "images/kenza_zouiten_1.jpg": "images/kenza_zouiten_1-88fdd4d9b4.jpg",
-  "images/kenza_zouiten_2.jpg": "images/kenza_zouiten_2-63aef95f78.jpg",
+  "images/ivyrevel-1.jpg": "images/ivyrevel-1-51f9535783.jpg",
+  "images/ivyrevel-2.jpg": "images/ivyrevel-2-13b7baec4f.jpg",
+  "images/ivyrevel-3.jpg": "images/ivyrevel-3-8ce26da5b5.jpg",
+  "images/ivyrevel-4.jpg": "images/ivyrevel-4-a45a567a2d.jpg",
+  "images/kenza-zouiten-1.jpg": "images/kenza-zouiten-1-88fdd4d9b4.jpg",
+  "images/kenza-zouiten-2.jpg": "images/kenza-zouiten-2-63aef95f78.jpg",
   "javascripts/app.js": "javascripts/app-9072cdb24fb2b4f05a6d.js",
-  "stylesheets/app.css": "stylesheets/app-e78e30adb9.css"
+  "stylesheets/app.css": "stylesheets/app-f928b24986.css"
 }
