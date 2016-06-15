@@ -20,6 +20,10 @@
     height: em(40px);
     float: left;
 
+    &:after {
+      display: none;
+    }
+
     .sprite {
       fill: $font-color;
     }

@@ -7,12 +7,12 @@
 
   .project {
     position: relative;
+    padding-left: em(25px);
+    padding-right: em(25px);
     margin-bottom: em(25px);
 
     @media #{$medium-up} {
       width: 50%;
-      padding-left: em(25px);
-      padding-right: em(25px);
       margin-bottom: em(50px);
     }
 

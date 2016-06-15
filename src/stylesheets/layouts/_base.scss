@@ -14,7 +14,7 @@ img {
 
 ul, ol {
   list-style: none;
-  margin: 0;
+  margin: 0 0 em(30px) 0;
   padding: 0;
 }
 
@@ -23,7 +23,7 @@ li {
 }
 
 p {
-  margin: em(15px) 0;
+  margin: 0 0 em(15px) 0;
   line-height: 1.5;
 }
 
@@ -39,27 +39,28 @@ a {
   
   &:hover,
   &:focus {
-    text-decoration: line-through;
-    color: darken($link-color, 20%);
-  } 
+    text-decoration: none;
+  }
 }
 
 .container {
   max-width: em(1280px);
   margin-left: auto;
   margin-right: auto;
-  padding-left: em(30px);
-  padding-right: em(30px);
   @include clearfix;
 
   .container {
-    padding-left: 0;
-    padding-right: 0;
+    max-width: auto;
+    margin-left: em(-25px);
+    margin-right: em(-25px);
   }
 }
 
-.column {
+.column,
+.columns {
   float: left;
+  padding-left: em(25px);
+  padding-right: em(25px);
 }
 
 .full {
@@ -67,7 +68,21 @@ a {
 }
 
 .half {
-  width: 50%;
+  @media #{$medium-up} {
+    width: 50%;
+  }
+}
+
+.onethird {
+  @media #{$medium-up} {
+    width: 33.3333333%;
+  }
+}
+
+.twothird {
+  @media #{$medium-up} {
+    width: 66.6666666%;
+  }
 }
 
 
@@ -82,4 +97,25 @@ a {
 
 .glitch-text {
   @include textGlitch("glitch-text", 20, $font-color, $background-color, 9999, 100);
+}
+
+.link {
+  position: relative;
+
+  &:after {
+    content: "";
+    border-top: em(2px) solid $link-color;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    @include transition(all 0.2s);
+  }
+
+  &:hover {
+    &:after {
+      bottom: 50%;
+      @include transform(translateY(50%));
+    }
+  }
 }

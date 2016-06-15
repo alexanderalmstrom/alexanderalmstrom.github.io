@@ -1,6 +1,5 @@
 .single {
   header {
-    text-align: center;
     margin-bottom: em(50px);
 
     @media #{$medium-up} {
@@ -12,6 +11,8 @@
     }
 
     h1 {
+      text-align: center;
+      
       @media #{$medium-up} {
         font-size: em(48px);
       }
