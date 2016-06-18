@@ -30,11 +30,7 @@ for (var i = 0; i < moduleElements.length; i++) {
   }
 */
 
-var Glitch = require('./glitch')
+const Glitch = require('./glitch').default
 
-function init() {
-  Glitch()
-}
-
-init()
+new Glitch()
 
