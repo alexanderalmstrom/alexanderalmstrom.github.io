@@ -29,3 +29,15 @@
     margin-bottom: em(100px);
   }
 }
+
+.single.project {
+  ul {
+    li {
+      margin-bottom: em(10px);
+
+      strong {
+        display: block;
+      }
+    }
+  }
+}
