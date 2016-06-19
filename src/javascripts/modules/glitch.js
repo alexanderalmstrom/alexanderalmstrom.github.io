@@ -1,29 +1,31 @@
 export default class Glitch {
-  constructor() {
-    this.init()
+  constructor(glitch) {
+    run(glitch)
   }
+}
 
-  init() {
-    let glitches = []
+function run(glitch) {
+  let delay = 3000 + Math.floor(Math.random() * 2000)
 
-    glitches = [].slice.call(document.querySelectorAll('.glitch-text, .glitch-svg'))
+  pause(glitch)
 
-    for (let i = 0; i < glitches.length; i++) {
-      let glitch = glitches[i]
-      this.draw(glitch)
-    }
-  }
+  setTimeout(function() {
+    play(glitch)
 
-  draw(glitch) {
     setTimeout(function() {
-      glitch.classList.add('play')
+      repeat(glitch)
+    }, 5000)
+  }, delay)
+}
 
-      setTimeout(function() {
-        glitch.classList.remove('play')
+function play(glitch) {
+  glitch.classList.add('play')
+}
 
-        this.draw(glitch)
-      }, 5000)
+function pause(glitch) {
+  glitch.classList.remove('play')
+}
 
-    }, 3000 + Math.floor(Math.random() * 2000) + 0)
-  }
+function repeat(glitch) {
+  run(glitch)
 }
