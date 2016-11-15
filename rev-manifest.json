@@ -1,4 +1,14 @@
 {
+  "fonts/butler-bold-webfont.eot": "fonts/butler-bold-webfont-d15c8c4f67.eot",
+  "fonts/butler-bold-webfont.svg": "fonts/butler-bold-webfont-734b875a81.svg",
+  "fonts/butler-bold-webfont.ttf": "fonts/butler-bold-webfont-929740c8c7.ttf",
+  "fonts/butler-bold-webfont.woff": "fonts/butler-bold-webfont-4afef5b8c8.woff",
+  "fonts/butler-bold-webfont.woff2": "fonts/butler-bold-webfont-cbc56b0d3b.woff2",
+  "fonts/butler-regular-webfont.eot": "fonts/butler-regular-webfont-ffd0377e43.eot",
+  "fonts/butler-regular-webfont.svg": "fonts/butler-regular-webfont-f1b95ec4d0.svg",
+  "fonts/butler-regular-webfont.ttf": "fonts/butler-regular-webfont-322b89274c.ttf",
+  "fonts/butler-regular-webfont.woff": "fonts/butler-regular-webfont-3a19f11765.woff",
+  "fonts/butler-regular-webfont.woff2": "fonts/butler-regular-webfont-6f9cc689fe.woff2",
   "fonts/circularstd-bold-webfont.eot": "fonts/circularstd-bold-webfont-31cc09a503.eot",
   "fonts/circularstd-bold-webfont.svg": "fonts/circularstd-bold-webfont-66ce7dce42.svg",
   "fonts/circularstd-bold-webfont.ttf": "fonts/circularstd-bold-webfont-fbf993d937.ttf",
@@ -36,5 +46,5 @@
   "images/livestage-tv-2.jpg": "images/livestage-tv-2-2b7653e5d4.jpg",
   "images/livestage-tv-3.jpg": "images/livestage-tv-3-1eaad0cafd.jpg",
   "javascripts/app.js": "javascripts/app-ee0130ce8096bd8cdac7.js",
-  "stylesheets/app.css": "stylesheets/app-8fb795add3.css"
+  "stylesheets/app.css": "stylesheets/app-81d333d6e6.css"
 }
