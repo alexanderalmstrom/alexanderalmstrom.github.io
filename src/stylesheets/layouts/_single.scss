@@ -19,11 +19,11 @@
       margin-bottom: em(3px);
 
       @media #{$medium-up} {
-        font-size: em(48px);
+        font-size: em(64px);
       }
 
       @media #{$large-up} {
-        font-size: em(72px);
+        font-size: em(90px);
       }
     }
 
