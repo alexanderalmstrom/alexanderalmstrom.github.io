@@ -10,15 +10,32 @@
       margin-bottom: em(100px);
     }
 
-    h1 {
+    .inner {
       text-align: center;
-      
+      margin-bottom: em(50px);
+    }
+
+    h1 {
+      margin-bottom: em(3px);
+
       @media #{$medium-up} {
         font-size: em(48px);
       }
 
       @media #{$large-up} {
         font-size: em(72px);
+      }
+    }
+
+    h2 {
+      font-size: em(20px);
+
+      @media #{$medium-up} {
+        font-size: em(24px);
+      }
+
+      @media #{$large-up} {
+        font-size: em(32px);
       }
     }
   }

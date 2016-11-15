@@ -1,0 +1,44 @@
+{% extends 'layouts/application.html' %}
+
+{% block title %} Hyundai {% endblock %}  
+
+{% block content %}
+  
+  <section class="single project">
+    <div class="container">
+      <div class="column full">
+        <article>
+          <header>
+            <div class="inner">
+              <h1 class="glitch-text" data-module="glitch" data-text="Hyundai">Hyundai</h1>
+            </div>
+            <div class="container">
+              <div class="column twothird">
+                <p>Complete redesign, UX and development of a new carbuilder for Hyundai. The main goal was to create a great user experience on both desktop and mobile devices that feels fast and clear. This work was done at media agency Bizkit Havas.</p>
+              </div>
+              <div class="column onethird">
+                <ul>
+                  <li><strong>UX / Design &amp; Development</strong> Alexander Almström</li>
+                  <li><strong>Client</strong>Hyundai</li>
+                  <li><strong>Agency</strong>Bizkit Havas</li>
+                </ul>
+                <a class="link" href="http://www.hyundai.se/#/bilbyggare" target="_blank">www.hyundai.se</a>
+              </div>
+            </div>
+          </header>
+          <div class="entry-content">
+            {{ image('hyundai-carbuilder-1.jpg', 'hyundai bilbyggare') }}
+            {{ image('hyundai-carbuilder-2.jpg', 'hyundai bilbyggare') }}
+            {{ image('hyundai-carbuilder-3.jpg', 'hyundai bilbyggare') }}
+            {{ image('hyundai-carbuilder-4.jpg', 'hyundai bilbyggare') }}
+            {{ image('hyundai-carbuilder-mobile-1.jpg', 'hyundai bilbyggare') }}
+            {{ image('hyundai-carbuilder-mobile-2.jpg', 'hyundai bilbyggare') }}
+            {{ image('hyundai-carbuilder-mobile-3.jpg', 'hyundai bilbyggare') }}
+            {{ image('hyundai-carbuilder-mobile-4.jpg', 'hyundai bilbyggare') }}
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+{% endblock %}
